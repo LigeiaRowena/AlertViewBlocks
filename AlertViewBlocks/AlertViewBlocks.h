@@ -7,7 +7,7 @@ typedef void(^AlertViewBlocksCancel)();
 
 @interface AlertViewBlocks : NSObject <UIAlertViewDelegate>
 
-///dsvvdfdgdfgsdfsdfjkn
+///test
 // Utility Methods
 + (AlertViewBlocks*)getIstance;
 - (void)confirmAlertViewWithTitle:(NSString*)title message:(NSString*)message confirmBlock:(AlertViewBlocksConfirm)confirm cancelBlock:(AlertViewBlocksCancel)cancel;
